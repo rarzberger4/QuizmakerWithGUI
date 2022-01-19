@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.quizmakerwithgui.HSController">
+   <children>
+      <TextArea fx:id="highscore" layoutX="142.0" layoutY="43.0" prefHeight="304.0" prefWidth="310.0" />
+      <Label fx:id="" alignment="CENTER" layoutX="155.0" layoutY="4.0" prefHeight="36.0" prefWidth="299.0" text="Highscore" textAlignment="CENTER">
+         <font>
+            <Font name="SansSerif Regular" size="31.0" />
+         </font></Label>
+      <Button fx:id="quitbutton" layoutX="459.0" layoutY="361.0" mnemonicParsing="false" onAction="#quit" text="Quit" />
+      <Button layoutX="96.0" layoutY="361.0" mnemonicParsing="false" text="Start Game" onAction="#onstartbuttonclick"/>
+   </children>
+</AnchorPane>
